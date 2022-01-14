@@ -14,6 +14,7 @@ header{
 .container{
     margin:5% 10%;
 }
+/* Start Influencer CSS */
 .start-influencer{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -36,3 +37,34 @@ header{
     border-radius: 15px;
     color: #fff;
 }
+
+/* Popular Collection */
+.section-title{
+    text-align: center;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 10px;
+}
+.product{
+    margin-bottom: 10px;
+    padding: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
+    box-shadow: 10px 10px 25px #aaaaaa;
+    border-radius: 15px;
+}
+.product img{
+    width: 300px;
+    height: 256px;
+}
+.product h4{
+    font-weight: 300;
+    font-size: 24px;
+}
+.fas{
+    color: #FB8200;
+}
+
+/* Footer */
