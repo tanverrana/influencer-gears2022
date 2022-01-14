@@ -8,11 +8,32 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-header{
-    padding: 30px;
-}
+
 .container{
-    margin:5% 10%;
+    margin:1% 10%;
+}
+/* Header */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 15px;
+}
+nav ul i{
+    margin: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
 }
 /* Start Influencer CSS */
 .start-influencer{
@@ -38,6 +59,7 @@ header{
     color: #fff;
 }
 
+
 /* Popular Collection */
 .section-title{
     text-align: center;
@@ -59,12 +81,33 @@ header{
     width: 300px;
     height: 256px;
 }
+.product h3{
+    font-weight: 400;
+    font-size: 28px;
+}
 .product h4{
     font-weight: 300;
     font-size: 24px;
 }
-.fas{
+.fill{
     color: #FB8200;
+}
+.half{
+    color:#FB8200 ;
+}
+.see-more-button{
+    text-decoration: none;
+    color: #E02C6D;
+    margin-left: 91%;
 }
 
 /* Footer */
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+.fab{
+    margin: 10px;
+}
