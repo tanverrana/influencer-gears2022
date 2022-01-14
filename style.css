@@ -8,3 +8,31 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+header{
+    padding: 30px;
+}
+.container{
+    margin:5% 10%;
+}
+.start-influencer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.journey-inluencer h1{
+    font-size: 52px;
+}
+.journey-inluencer p{
+    margin-bottom: 30px;
+}
+.main-camera img{
+    width: 440px;
+    height: 414px;
+}
+.prebook-button{
+    text-decoration: none;
+    padding:10px 24px;
+    background-color: #E02C6D;
+    border-radius: 15px;
+    color: #fff;
+}
