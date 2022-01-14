@@ -58,6 +58,12 @@ nav ul li a{
     border-radius: 15px;
     color: #fff;
 }
+/* Sponsor */
+.sponsor{
+    margin: 70px 0;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
 
 
 /* Popular Collection */
@@ -99,8 +105,11 @@ nav ul li a{
 .see-more-button{
     text-decoration: none;
     color: #E02C6D;
-    padding-top: 30px;
-    margin-left: 90%;
+    
+}
+.more{
+    text-align: right;
+    
 }
 /* Keep In Touch */
 .subsribe-form{
@@ -137,6 +146,9 @@ nav ul li a{
     padding: 10px 160px;
     background-color: #E02C6D;
 
+}
+.subscribe-button:hover{
+    background-color: black;
 }
 .unsubscribe{
     text-decoration: none;
