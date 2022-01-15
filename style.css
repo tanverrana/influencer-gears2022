@@ -122,9 +122,6 @@ nav ul li a{
     width: 500px;
     height: 500px;
 }
-.form{
-    
-}
 .form h1{
     font-size: 60px;
 }
@@ -166,4 +163,20 @@ footer{
 }
 .fab{
     margin: 10px;
+}
+/* Reponsive */
+@media only screen and (max-width:688px){
+
+    .start-influencer{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sponsor{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .products{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .subsribe-form{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
