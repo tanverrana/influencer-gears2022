@@ -123,13 +123,11 @@ nav ul li a{
 }
 /* Secreet Of Influencer */
 .influencer-use{
-    margin: 70px 0;
+    margin: 40px 0;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    column-gap: 50px;
     align-items: center;
-}
-.influencer-secret{
-    margin: 0 0px 50px 50px;
 }
 .influencer-secret h2{
     font-size: 30px;
@@ -157,12 +155,17 @@ footer{
     }
     .sponsor{
         grid-template-columns: repeat(4,1fr);
+        align-items: center;
+        
     }
     .products{
         grid-template-columns: repeat(1,1fr);
     }
     .influencer-use{
         grid-template-columns: repeat(1,1fr);
+    }
+    .journey-inluencer h1{
+        font-size: 42px;
     }
 }
 @media only screen and (min-width:689px) and (max-width:992px) {
